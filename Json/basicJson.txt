@@ -1,0 +1,8 @@
+*******************************************JSON***************
+javaScript object Notations
+
+->human readable data interchange
+->mainly used for data interchange between web AApplication and server
+->reading and decoding in real world situtaions
+->less amunt of data is transferred so,more fast than xml(extensible markup language)
+->reading json means, converting json into python(value) object

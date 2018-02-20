@@ -1,0 +1,22 @@
+#installation
+****************
+pip3 install virtualenvwrapper
+
+sudo nano .bashrc
+
+#virtualenv
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/vishal
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source /home/vishal/.local/bin/virtualenvwrapper.sh
+
+source .bashrc
+
+command
+**********
+mkvirtualenv RDH
+cd Documents/Resolved_Digital/
+setvirtualenvproject
+deactivate
+cd
+workon RDH
